@@ -40,13 +40,6 @@ training 진행
 kaggle 데이터를 불러온 후 제출을 위해 dataframe 생성하는 부분
 실제 문장 확인하는 구문 predict('') 안의 내용을 원하는 문장으로 바꿔주면 됩니다.
 
-특징
-모든 리뷰는 140 자 미만입니다.
-각 감정 클래스는 균등하게 샘플링됩니다 (즉, 무작위 추측으로 50 %의 정확도를 얻을 수 있음).
-10 만 개의 부정적인 리뷰 (원래 등급 1 ~ 4의 리뷰)
-10 만 개의 긍정적 인 리뷰 (원래 평점 9-10에 대한 리뷰)
-중립적 인 리뷰 (원래 등급 5-8의 리뷰)는 제외됩니다.
-
 참조
 http://aidev.co.kr/chatbotdeeplearning/8709
 http://yonghee.io/bert_binary_classification_naver/
